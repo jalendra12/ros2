@@ -1,0 +1,11 @@
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/uninstall.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/server.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/client.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/test.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/edit_cache.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/list_install_components.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/install.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/install/local.dir
+/home/svaya/Documents/Ros2/ros2_wp/build/cpp_srvcli/CMakeFiles/install/strip.dir
