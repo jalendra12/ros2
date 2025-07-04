@@ -1,0 +1,70 @@
+Start ROS 2
+ - You will need to run this command on every new shell you open to have access to the ROS 2 commands
+ source /opt/ros/humble/setup.bash
+
+rqt is a graphical user interface (GUI) tool for ROS 2.
+
+
+NODE
+To run turtlesim, open a new terminal, and enter the following command:
+
+ * ros2 run turtlesim turtlesim_node
+ * ros2 run turtlesim turtle_teleop_key
+ * ros2 node list
+
+Here, the package name is turtlesim and the executable name is turtlesim_node.
+
+REMAPPING is the process of changing the name of a topic, service, parameter, or node interface at runtime — without modifying the source code of the node.
+ * ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
+
+ -- Terminate any node
+    ps aux | grep <node_name>
+    kill <PID>
+
+    svaya      27287  ...  /usr/bin/python3 /opt/ros/humble/bin/ros2 run ...
+    svaya      27288  ...  /opt/ros/humble/lib/turtlesim/turtlesim_node ... this line contain main pid
+    svaya      27581  ...  grep --color=auto my_turtle
+
+
+
+TOPICS
+    1. ROS 2 breaks complex systems down into many modular nodes. Topics are a vital element of the ROS graph that act as a bus for nodes to exchange messages.
+    2. A node may publish data to any number of topics and simultaneously have subscriptions to any number of topics.
+    3. Topics are one of the main ways in which data is moved between nodes and therefore between different parts of the system.
+
+  * ros2 topic list
+    /parameter_events
+    /rosout
+    /turtle1/cmd_vel
+    /turtle1/color_sensor
+    /turtle1/pose
+
+  * ros2 topic list -t
+    will return the same list of topics, this time with the topic type appended in brackets.
+    output:
+    /parameter_events [rcl_interfaces/msg/ParameterEvent]
+    /rosout [rcl_interfaces/msg/Log]
+    /turtle1/cmd_vel [geometry_msgs/msg/Twist]
+    /turtle1/color_sensor [turtlesim/msg/Color]
+    /turtle1/pose [turtlesim/msg/Pose]
+
+  To see the data being published on a topic, use:
+  * ros2 topic echo /turtle1/cmd_vel
+
+  Topics don’t have to only be one-to-one communication; they can be one-to-many, many-to-one, or many-to-many.
+  * ros2 topic info /turtle1/cmd_vel
+    Type: geometry_msgs/msg/Twist
+    Publisher count: 1
+    Subscription count: 2
+  * ros2 interface show geometry_msgs/msg/Twist
+
+SERVICE
+  
+
+
+
+
+
+Building Packages
+ * colcon build --packages-select my_package
+   to run selected packages

@@ -1,0 +1,17 @@
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/lib/cpp_pubsub/talker
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/lib/cpp_pubsub/listener
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub/share/cpp_pubsub/package.xml
