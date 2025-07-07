@@ -1,2 +1,0 @@
-Invoking command in '/home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces': /usr/bin/cmake --build /home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces -- -j28 -l28
-Invoked command in '/home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces -- -j28 -l28

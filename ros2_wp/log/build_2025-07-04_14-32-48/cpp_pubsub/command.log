@@ -1,6 +1,0 @@
-Invoking command in '/home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/svaya/Documents/Ros2/ros2_wp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub
-Invoked command in '/home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/svaya/Documents/Ros2/ros2_wp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/svaya/Documents/Ros2/ros2_wp/install/cpp_pubsub
-Invoking command in '/home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub -- -j28 -l28
-Invoked command in '/home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub -- -j28 -l28
-Invoking command in '/home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub
-Invoked command in '/home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/svaya/Documents/Ros2/ros2_wp/build/cpp_pubsub
