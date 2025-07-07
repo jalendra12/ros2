@@ -22,8 +22,13 @@ target_include_directories(action_server PRIVATE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
+target_include_directories(action_client PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+
 target_compile_definitions(action_server
   PRIVATE "ACTION_TUTORIALS_CPP_BUILDING_DLL")
+
 target_compile_definitions(action_client
   PRIVATE "ACTION_TUTORIALS_CPP_BUILDING_DLL")
 

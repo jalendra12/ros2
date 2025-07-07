@@ -60,15 +60,25 @@ private:
   rclcpp_action::Client<Fibonacci>::SharedPtr client_ptr_;
   rclcpp::TimerBase::SharedPtr timer_;
 
-  void goal_response_callback(std::shared_future<GoalHandleFibonacci::SharedPtr> future)
+  // void goal_response_callback(std::shared_future<GoalHandleFibonacci::SharedPtr> future)
+  // {
+  //   auto goal_handle = future.get();
+  //   if (!goal_handle) {
+  //     RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
+  //   } else {
+  //     RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
+  //   }
+  // }
+  
+  void goal_response_callback(std::shared_ptr<GoalHandleFibonacci> goal_handle)
   {
-    auto goal_handle = future.get();
     if (!goal_handle) {
       RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
     } else {
       RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
     }
   }
+
 
   void feedback_callback(
     GoalHandleFibonacci::SharedPtr,
