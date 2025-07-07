@@ -1,0 +1,2 @@
+Invoking command in '/home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces -- -j28 -l28
+Invoked command in '/home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/Ros2/ros2_wp/build/tutorial_interfaces -- -j28 -l28
