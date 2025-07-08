@@ -1,5 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
-#include "client/srv/add_three_ints.hpp"                                       
+#include "integer_interface/srv/add_three_ints.hpp"                                       
 
 #include <chrono>
 #include <cstdlib>
@@ -16,10 +16,10 @@ int main(int argc, char **argv)
   }
 
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_three_ints_client");  
-  rclcpp::Client<client::srv::AddThreeInts>::SharedPtr client =                
-    node->create_client<client::srv::AddThreeInts>("/add_three_ints");          
+  rclcpp::Client<integer_interface::srv::AddThreeInts>::SharedPtr client =                
+    node->create_client<integer_interface::srv::AddThreeInts>("/add_three_ints");          
 
-  auto request = std::make_shared<client::srv::AddThreeInts::Request>();       
+  auto request = std::make_shared<integer_interface::srv::AddThreeInts::Request>();       
   request->a = atoll(argv[1]);
   request->b = atoll(argv[2]);
   request->c = atoll(argv[3]);                                                              
