@@ -1,7 +1,6 @@
 /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/uninstall.dir
 /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/cpp_pubsub2_uninstall.dir
-/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/talker.dir
-/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/listener.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/thread_message.dir
 /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/test.dir
 /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/edit_cache.dir
 /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles/rebuild_cache.dir

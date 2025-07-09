@@ -63,8 +63,7 @@ CMAKE_BINARY_DIR = /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/talker.dir/all
-all: CMakeFiles/listener.dir/all
+all: CMakeFiles/thread_message.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,8 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_pubsub2_uninstall.dir/clean
-clean: CMakeFiles/talker.dir/clean
-clean: CMakeFiles/listener.dir/clean
+clean: CMakeFiles/thread_message.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -131,56 +129,30 @@ CMakeFiles/cpp_pubsub2_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_pubsub2_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/talker.dir
+# Target rules for target CMakeFiles/thread_message.dir
 
 # All Build rule for target.
-CMakeFiles/talker.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles --progress-num=3,4 "Built target talker"
-.PHONY : CMakeFiles/talker.dir/all
+CMakeFiles/thread_message.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread_message.dir/build.make CMakeFiles/thread_message.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread_message.dir/build.make CMakeFiles/thread_message.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles --progress-num=1,2 "Built target thread_message"
+.PHONY : CMakeFiles/thread_message.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/talker.dir/rule: cmake_check_build_system
+CMakeFiles/thread_message.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/talker.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/thread_message.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles 0
-.PHONY : CMakeFiles/talker.dir/rule
+.PHONY : CMakeFiles/thread_message.dir/rule
 
 # Convenience name for target.
-talker: CMakeFiles/talker.dir/rule
-.PHONY : talker
+thread_message: CMakeFiles/thread_message.dir/rule
+.PHONY : thread_message
 
 # clean rule for target.
-CMakeFiles/talker.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/clean
-.PHONY : CMakeFiles/talker.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/listener.dir
-
-# All Build rule for target.
-CMakeFiles/listener.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles --progress-num=1,2 "Built target listener"
-.PHONY : CMakeFiles/listener.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/listener.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/listener.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub2/CMakeFiles 0
-.PHONY : CMakeFiles/listener.dir/rule
-
-# Convenience name for target.
-listener: CMakeFiles/listener.dir/rule
-.PHONY : listener
-
-# clean rule for target.
-CMakeFiles/listener.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/clean
-.PHONY : CMakeFiles/listener.dir/clean
+CMakeFiles/thread_message.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread_message.dir/build.make CMakeFiles/thread_message.dir/clean
+.PHONY : CMakeFiles/thread_message.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

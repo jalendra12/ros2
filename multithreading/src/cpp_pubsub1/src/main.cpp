@@ -31,7 +31,7 @@ int main(int argc, char **argv)
     // Initialize ROS 2
     rclcpp::init(argc, argv);
 
-    // // Create threads for each node to run concurrently
+    // Create threads for each node to run concurrently
     // std::thread publisher_thread_1(run_publisher_node_1);
     // std::thread publisher_thread_2(run_publisher_node_2);
     // std::thread subscriber_thread_1(run_subscriber_node_1);

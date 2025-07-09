@@ -1,5 +1,4 @@
-/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub2/lib/cpp_pubsub2/talker
-/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub2/lib/cpp_pubsub2/listener
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub2/lib/cpp_pubsub2/thread_message
 /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub2/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub2
 /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub2/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub2
 /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub2/share/cpp_pubsub2/environment/ament_prefix_path.sh
