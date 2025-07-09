@@ -1,0 +1,2 @@
+Invoking command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28
+Invoked command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28

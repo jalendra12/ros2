@@ -1,0 +1,86 @@
+[0.006s] Invoking command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/parallelism.dir/src/main.cpp.o[0m
+[1.327s] In file included from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:6[m[K:
+[1.327s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/../include/cpp_pubsub1/subscriber1_member_function.hpp:7:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass MinimalSubscriber1[m[K’
+[1.327s]     7 | class [01;31m[KMinimalSubscriber1[m[K : public rclcpp::Node
+[1.327s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.327s] In file included from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:5[m[K:
+[1.327s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/../include/cpp_pubsub1/subscriber1_member_function.hpp:7:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass MinimalSubscriber1[m[K’
+[1.327s]     7 | class [01;36m[KMinimalSubscriber1[m[K : public rclcpp::Node
+[1.327s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.329s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_publisher_node_1()[m[K’:
+[1.329s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:46:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisherNode1[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_node_1[m[K’?
+[1.329s]    11 |     auto publisher_node_1 = std::make_shared<[01;31m[KPublisherNode1[m[K>();
+[1.329s]       |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.329s]       |                                              [32m[Kpublisher_node_1[m[K
+[1.330s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.330s]    11 |     auto publisher_node_1 = [01;31m[Kstd::make_shared<PublisherNode1>()[m[K;
+[1.330s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.330s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.330s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.330s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.330s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.330s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.330s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.330s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.330s]    11 |     auto publisher_node_1 = [01;31m[Kstd::make_shared<PublisherNode1>()[m[K;
+[1.330s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.332s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_publisher_node_2()[m[K’:
+[1.332s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:17:46:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisherNode2[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_node_2[m[K’?
+[1.332s]    17 |     auto publisher_node_2 = std::make_shared<[01;31m[KPublisherNode2[m[K>();
+[1.332s]       |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.332s]       |                                              [32m[Kpublisher_node_2[m[K
+[1.332s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:17:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.332s]    17 |     auto publisher_node_2 = [01;31m[Kstd::make_shared<PublisherNode2>()[m[K;
+[1.332s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.332s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.332s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.332s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.332s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.332s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.332s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.332s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:17:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.332s]    17 |     auto publisher_node_2 = [01;31m[Kstd::make_shared<PublisherNode2>()[m[K;
+[1.332s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.334s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_subscriber_node_1()[m[K’:
+[1.334s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:23:47:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriberNode1[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber_node_1[m[K’?
+[1.334s]    23 |     auto subscriber_node_1 = std::make_shared<[01;31m[KSubscriberNode1[m[K>();
+[1.334s]       |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.334s]       |                                               [32m[Ksubscriber_node_1[m[K
+[1.334s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:23:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.334s]    23 |     auto subscriber_node_1 = [01;31m[Kstd::make_shared<SubscriberNode1>()[m[K;
+[1.334s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.334s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.334s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.334s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.334s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.334s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.334s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.334s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:23:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.334s]    23 |     auto subscriber_node_1 = [01;31m[Kstd::make_shared<SubscriberNode1>()[m[K;
+[1.334s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.336s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_subscriber_node_2()[m[K’:
+[1.336s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:29:47:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriberNode2[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber_node_2[m[K’?
+[1.336s]    29 |     auto subscriber_node_2 = std::make_shared<[01;31m[KSubscriberNode2[m[K>();
+[1.336s]       |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.336s]       |                                               [32m[Ksubscriber_node_2[m[K
+[1.336s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:29:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.336s]    29 |     auto subscriber_node_2 = [01;31m[Kstd::make_shared<SubscriberNode2>()[m[K;
+[1.336s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.336s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.336s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.336s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.336s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.336s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.336s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.336s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:29:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.336s]    29 |     auto subscriber_node_2 = [01;31m[Kstd::make_shared<SubscriberNode2>()[m[K;
+[1.336s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.647s] gmake[2]: *** [CMakeFiles/parallelism.dir/build.make:76: CMakeFiles/parallelism.dir/src/main.cpp.o] Error 1
+[2.648s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parallelism.dir/all] Error 2
+[2.648s] gmake: *** [Makefile:146: all] Error 2
+[2.651s] Invoked command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28

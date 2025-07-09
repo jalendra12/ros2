@@ -1,0 +1,10 @@
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/uninstall.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/cpp_pubsub1_uninstall.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/parallelism.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/test.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/edit_cache.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/rebuild_cache.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/list_install_components.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/install.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/install/local.dir
+/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1/CMakeFiles/install/strip.dir

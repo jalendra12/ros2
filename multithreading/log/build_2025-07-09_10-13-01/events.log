@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (-) JobUnselected: {'identifier': 'cpp_pubsub2'}
+[0.000211] (cpp_pubsub1) JobQueued: {'identifier': 'cpp_pubsub1', 'dependencies': OrderedDict()}
+[0.000234] (cpp_pubsub1) JobStarted: {'identifier': 'cpp_pubsub1'}
+[0.004847] (cpp_pubsub1) JobProgress: {'identifier': 'cpp_pubsub1', 'progress': 'cmake'}
+[0.005195] (cpp_pubsub1) JobProgress: {'identifier': 'cpp_pubsub1', 'progress': 'build'}
+[0.005679] (cpp_pubsub1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1', '--', '-j28', '-l28'], 'cwd': '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'svaya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/svaya'), ('OLDPWD', '/home/svaya/Documents/ros2/multithreading/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/svaya/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/svaya/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '46269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/svaya/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'svaya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'svaya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/svaya/.nvm/versions/node/v22.8.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVAYA-PC019:@/tmp/.ICE-unix/46245,unix/SVAYA-PC019:/tmp/.ICE-unix/46245'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6e28d32_e7a3_4c9a_b3c3_8752b0303477'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K5N482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '49'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049728] (cpp_pubsub1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parallelism.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099575] (-) TimerEvent: {}
+[0.199905] (-) TimerEvent: {}
+[0.300276] (-) TimerEvent: {}
+[0.400666] (-) TimerEvent: {}
+[0.501170] (-) TimerEvent: {}
+[0.601508] (-) TimerEvent: {}
+[0.701873] (-) TimerEvent: {}
+[0.802224] (-) TimerEvent: {}
+[0.902563] (-) TimerEvent: {}
+[1.002929] (-) TimerEvent: {}
+[1.103284] (-) TimerEvent: {}
+[1.203623] (-) TimerEvent: {}
+[1.303974] (-) TimerEvent: {}
+[1.326884] (cpp_pubsub1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[1.327064] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/../include/cpp_pubsub1/subscriber1_member_function.hpp:7:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass MinimalSubscriber1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.327112] (cpp_pubsub1) StderrLine: {'line': b'    7 | class \x1b[01;31m\x1b[KMinimalSubscriber1\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.327150] (cpp_pubsub1) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.327184] (cpp_pubsub1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[1.327218] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/../include/cpp_pubsub1/subscriber1_member_function.hpp:7:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass MinimalSubscriber1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.327254] (cpp_pubsub1) StderrLine: {'line': b'    7 | class \x1b[01;36m\x1b[KMinimalSubscriber1\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.327286] (cpp_pubsub1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.329493] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid run_publisher_node_1()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.329588] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPublisherNode1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_node_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.329632] (cpp_pubsub1) StderrLine: {'line': b'   11 |     auto publisher_node_1 = std::make_shared<\x1b[01;31m\x1b[KPublisherNode1\x1b[m\x1b[K>();\n'}
+[1.329676] (cpp_pubsub1) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.329709] (cpp_pubsub1) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[Kpublisher_node_1\x1b[m\x1b[K\n'}
+[1.329741] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.329781] (cpp_pubsub1) StderrLine: {'line': b'   11 |     auto publisher_node_1 = \x1b[01;31m\x1b[Kstd::make_shared<PublisherNode1>()\x1b[m\x1b[K;\n'}
+[1.329810] (cpp_pubsub1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.329840] (cpp_pubsub1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.329874] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.329904] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.329934] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.329966] (cpp_pubsub1) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.329997] (cpp_pubsub1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.330026] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.330056] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.330086] (cpp_pubsub1) StderrLine: {'line': b'   11 |     auto publisher_node_1 = \x1b[01;31m\x1b[Kstd::make_shared<PublisherNode1>()\x1b[m\x1b[K;\n'}
+[1.330116] (cpp_pubsub1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.331760] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid run_publisher_node_2()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.331850] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:17:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPublisherNode2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_node_2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.331892] (cpp_pubsub1) StderrLine: {'line': b'   17 |     auto publisher_node_2 = std::make_shared<\x1b[01;31m\x1b[KPublisherNode2\x1b[m\x1b[K>();\n'}
+[1.331925] (cpp_pubsub1) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.331955] (cpp_pubsub1) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[Kpublisher_node_2\x1b[m\x1b[K\n'}
+[1.331992] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:17:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.332022] (cpp_pubsub1) StderrLine: {'line': b'   17 |     auto publisher_node_2 = \x1b[01;31m\x1b[Kstd::make_shared<PublisherNode2>()\x1b[m\x1b[K;\n'}
+[1.332051] (cpp_pubsub1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.332082] (cpp_pubsub1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.332115] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.332147] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.332180] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.332211] (cpp_pubsub1) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.332239] (cpp_pubsub1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.332267] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.332296] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:17:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.332325] (cpp_pubsub1) StderrLine: {'line': b'   17 |     auto publisher_node_2 = \x1b[01;31m\x1b[Kstd::make_shared<PublisherNode2>()\x1b[m\x1b[K;\n'}
+[1.332353] (cpp_pubsub1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.334000] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid run_subscriber_node_1()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.334088] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriberNode1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksubscriber_node_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.334127] (cpp_pubsub1) StderrLine: {'line': b'   23 |     auto subscriber_node_1 = std::make_shared<\x1b[01;31m\x1b[KSubscriberNode1\x1b[m\x1b[K>();\n'}
+[1.334159] (cpp_pubsub1) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.334189] (cpp_pubsub1) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Ksubscriber_node_1\x1b[m\x1b[K\n'}
+[1.334218] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:23:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.334248] (cpp_pubsub1) StderrLine: {'line': b'   23 |     auto subscriber_node_1 = \x1b[01;31m\x1b[Kstd::make_shared<SubscriberNode1>()\x1b[m\x1b[K;\n'}
+[1.334277] (cpp_pubsub1) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.334305] (cpp_pubsub1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.334334] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.334363] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.334392] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.334420] (cpp_pubsub1) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.334448] (cpp_pubsub1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.334476] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.334510] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:23:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.334538] (cpp_pubsub1) StderrLine: {'line': b'   23 |     auto subscriber_node_1 = \x1b[01;31m\x1b[Kstd::make_shared<SubscriberNode1>()\x1b[m\x1b[K;\n'}
+[1.334565] (cpp_pubsub1) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.336079] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid run_subscriber_node_2()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.336162] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:29:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriberNode2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksubscriber_node_2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.336208] (cpp_pubsub1) StderrLine: {'line': b'   29 |     auto subscriber_node_2 = std::make_shared<\x1b[01;31m\x1b[KSubscriberNode2\x1b[m\x1b[K>();\n'}
+[1.336241] (cpp_pubsub1) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.336270] (cpp_pubsub1) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Ksubscriber_node_2\x1b[m\x1b[K\n'}
+[1.336299] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:29:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.336328] (cpp_pubsub1) StderrLine: {'line': b'   29 |     auto subscriber_node_2 = \x1b[01;31m\x1b[Kstd::make_shared<SubscriberNode2>()\x1b[m\x1b[K;\n'}
+[1.336356] (cpp_pubsub1) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.336383] (cpp_pubsub1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.336412] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.336442] (cpp_pubsub1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.336471] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.336499] (cpp_pubsub1) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.336525] (cpp_pubsub1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.336550] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.336578] (cpp_pubsub1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:29:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.336603] (cpp_pubsub1) StderrLine: {'line': b'   29 |     auto subscriber_node_2 = \x1b[01;31m\x1b[Kstd::make_shared<SubscriberNode2>()\x1b[m\x1b[K;\n'}
+[1.336629] (cpp_pubsub1) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.404143] (-) TimerEvent: {}
+[1.504474] (-) TimerEvent: {}
+[1.604833] (-) TimerEvent: {}
+[1.705188] (-) TimerEvent: {}
+[1.805555] (-) TimerEvent: {}
+[1.905947] (-) TimerEvent: {}
+[2.006271] (-) TimerEvent: {}
+[2.106629] (-) TimerEvent: {}
+[2.206959] (-) TimerEvent: {}
+[2.307319] (-) TimerEvent: {}
+[2.407672] (-) TimerEvent: {}
+[2.507925] (-) TimerEvent: {}
+[2.608269] (-) TimerEvent: {}
+[2.647524] (cpp_pubsub1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parallelism.dir/build.make:76: CMakeFiles/parallelism.dir/src/main.cpp.o] Error 1\n'}
+[2.647841] (cpp_pubsub1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parallelism.dir/all] Error 2\n'}
+[2.647949] (cpp_pubsub1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.650599] (cpp_pubsub1) CommandEnded: {'returncode': 2}
+[2.656754] (cpp_pubsub1) JobEnded: {'identifier': 'cpp_pubsub1', 'rc': 2}
+[2.667152] (-) EventReactorShutdown: {}

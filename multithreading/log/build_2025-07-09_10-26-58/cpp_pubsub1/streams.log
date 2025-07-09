@@ -1,0 +1,82 @@
+[0.008s] Invoking command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target parallelism[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/parallelism.dir/src/main.cpp.o[0m
+[1.335s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_publisher_node_1()[m[K’:
+[1.335s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisherNode1[m[K’ was not declared in this scope; did you mean ‘[01m[Krun_publisher_node_1[m[K’?
+[1.335s]    11 |     rclcpp::spin(std::make_shared<[01;31m[KPublisherNode1[m[K>());
+[1.335s]       |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.336s]       |                                   [32m[Krun_publisher_node_1[m[K
+[1.336s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.336s]    11 |     rclcpp::spin([01;31m[Kstd::make_shared<PublisherNode1>()[m[K);
+[1.336s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.336s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.336s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.336s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.336s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.336s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.336s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.336s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:11:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.336s]    11 |     rclcpp::spin([01;31m[Kstd::make_shared<PublisherNode1>()[m[K);
+[1.336s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.338s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_publisher_node_2()[m[K’:
+[1.338s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:16:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisherNode2[m[K’ was not declared in this scope; did you mean ‘[01m[Krun_publisher_node_2[m[K’?
+[1.338s]    16 |     rclcpp::spin(std::make_shared<[01;31m[KPublisherNode2[m[K>());
+[1.338s]       |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.338s]       |                                   [32m[Krun_publisher_node_2[m[K
+[1.338s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:16:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.339s]    16 |     rclcpp::spin([01;31m[Kstd::make_shared<PublisherNode2>()[m[K);
+[1.339s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.339s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.339s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.339s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.339s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.339s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.339s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.339s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:16:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.339s]    16 |     rclcpp::spin([01;31m[Kstd::make_shared<PublisherNode2>()[m[K);
+[1.339s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.341s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_subscriber_node_1()[m[K’:
+[1.341s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:21:35:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriberNode1[m[K’ was not declared in this scope; did you mean ‘[01m[Krun_subscriber_node_1[m[K’?
+[1.341s]    21 |     rclcpp::spin(std::make_shared<[01;31m[KSubscriberNode1[m[K>());
+[1.341s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.341s]       |                                   [32m[Krun_subscriber_node_1[m[K
+[1.341s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:21:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.341s]    21 |     rclcpp::spin([01;31m[Kstd::make_shared<SubscriberNode1>()[m[K);
+[1.341s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.341s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.342s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.342s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.342s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.342s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.342s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.342s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:21:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.342s]    21 |     rclcpp::spin([01;31m[Kstd::make_shared<SubscriberNode1>()[m[K);
+[1.342s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.344s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_subscriber_node_2()[m[K’:
+[1.344s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:26:35:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriberNode2[m[K’ was not declared in this scope; did you mean ‘[01m[Krun_subscriber_node_2[m[K’?
+[1.344s]    26 |     rclcpp::spin(std::make_shared<[01;31m[KSubscriberNode2[m[K>(););
+[1.344s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.344s]       |                                   [32m[Krun_subscriber_node_2[m[K
+[1.344s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:26:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.344s]    26 |     rclcpp::spin([01;31m[Kstd::make_shared<SubscriberNode2>()[m[K;);
+[1.344s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.344s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.345s]                  from [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:1[m[K:
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.345s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.345s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.345s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:26:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.345s]    26 |     rclcpp::spin([01;31m[Kstd::make_shared<SubscriberNode2>()[m[K;);
+[1.345s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.345s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:26:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.345s]    26 |     rclcpp::spin(std::make_shared<SubscriberNode2>();[01;31m[K)[m[K;
+[1.345s]       |                                                      [01;31m[K^[m[K
+[2.715s] gmake[2]: *** [CMakeFiles/parallelism.dir/build.make:76: CMakeFiles/parallelism.dir/src/main.cpp.o] Error 1
+[2.715s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parallelism.dir/all] Error 2
+[2.715s] gmake: *** [Makefile:146: all] Error 2
+[2.721s] Invoked command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28

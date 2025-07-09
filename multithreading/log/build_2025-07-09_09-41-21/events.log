@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (-) JobUnselected: {'identifier': 'cpp_pubsub2'}
+[0.000272] (cpp_pubsub1) JobQueued: {'identifier': 'cpp_pubsub1', 'dependencies': OrderedDict()}
+[0.000610] (cpp_pubsub1) JobStarted: {'identifier': 'cpp_pubsub1'}
+[0.005483] (cpp_pubsub1) JobProgress: {'identifier': 'cpp_pubsub1', 'progress': 'cmake'}
+[0.005984] (cpp_pubsub1) Command: {'cmd': ['/usr/bin/cmake', '/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1', '-DCMAKE_INSTALL_PREFIX=/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1'], 'cwd': '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'svaya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/svaya'), ('OLDPWD', '/home/svaya/Documents/ros2/multithreading/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/svaya/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/svaya/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '46269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/svaya/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'svaya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'svaya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/svaya/.nvm/versions/node/v22.8.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVAYA-PC019:@/tmp/.ICE-unix/46245,unix/SVAYA-PC019:/tmp/.ICE-unix/46245'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6e28d32_e7a3_4c9a_b3c3_8752b0303477'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K5N482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '49'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.075843] (cpp_pubsub1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099862] (-) TimerEvent: {}
+[0.140561] (cpp_pubsub1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.147186] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200033] (-) TimerEvent: {}
+[0.214627] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.221825] (cpp_pubsub1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.222018] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.222286] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.224229] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.282605] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.291409] (cpp_pubsub1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.291717] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.292162] (cpp_pubsub1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.293738] (cpp_pubsub1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300095] (-) TimerEvent: {}
+[0.400309] (-) TimerEvent: {}
+[0.433393] (cpp_pubsub1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.495660] (cpp_pubsub1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500358] (-) TimerEvent: {}
+[0.525324] (cpp_pubsub1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527807] (cpp_pubsub1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.532376] (cpp_pubsub1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.539232] (cpp_pubsub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.547976] (cpp_pubsub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.571740] (cpp_pubsub1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.573031] (cpp_pubsub1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600418] (-) TimerEvent: {}
+[0.649593] (cpp_pubsub1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.666490] (cpp_pubsub1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.693372] (cpp_pubsub1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.698070] (cpp_pubsub1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700478] (-) TimerEvent: {}
+[0.760996] (cpp_pubsub1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.761309] (cpp_pubsub1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800576] (-) TimerEvent: {}
+[0.810444] (cpp_pubsub1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.811507] (cpp_pubsub1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.883079] (cpp_pubsub1) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.889022] (cpp_pubsub1) StdoutLine: {'line': b'-- Generating done\n'}
+[0.891668] (cpp_pubsub1) StdoutLine: {'line': b'-- Build files have been written to: /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1\n'}
+[0.898063] (cpp_pubsub1) CommandEnded: {'returncode': 0}
+[0.899053] (cpp_pubsub1) JobProgress: {'identifier': 'cpp_pubsub1', 'progress': 'build'}
+[0.899071] (cpp_pubsub1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1', '--', '-j28', '-l28'], 'cwd': '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'svaya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/svaya'), ('OLDPWD', '/home/svaya/Documents/ros2/multithreading/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/svaya/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/svaya/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '46269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/svaya/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'svaya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'svaya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/svaya/.nvm/versions/node/v22.8.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVAYA-PC019:@/tmp/.ICE-unix/46245,unix/SVAYA-PC019:/tmp/.ICE-unix/46245'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6e28d32_e7a3_4c9a_b3c3_8752b0303477'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K5N482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '49'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.900659] (-) TimerEvent: {}
+[0.930527] (cpp_pubsub1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.931797] (cpp_pubsub1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.000749] (-) TimerEvent: {}
+[1.100950] (-) TimerEvent: {}
+[1.201155] (-) TimerEvent: {}
+[1.301280] (-) TimerEvent: {}
+[1.401383] (-) TimerEvent: {}
+[1.501484] (-) TimerEvent: {}
+[1.601584] (-) TimerEvent: {}
+[1.701684] (-) TimerEvent: {}
+[1.801781] (-) TimerEvent: {}
+[1.901878] (-) TimerEvent: {}
+[2.002003] (-) TimerEvent: {}
+[2.102152] (-) TimerEvent: {}
+[2.202253] (-) TimerEvent: {}
+[2.302349] (-) TimerEvent: {}
+[2.402445] (-) TimerEvent: {}
+[2.502541] (-) TimerEvent: {}
+[2.602641] (-) TimerEvent: {}
+[2.702740] (-) TimerEvent: {}
+[2.802836] (-) TimerEvent: {}
+[2.902933] (-) TimerEvent: {}
+[3.003055] (-) TimerEvent: {}
+[3.103166] (-) TimerEvent: {}
+[3.203264] (-) TimerEvent: {}
+[3.303408] (-) TimerEvent: {}
+[3.323965] (cpp_pubsub1) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.403502] (-) TimerEvent: {}
+[3.438170] (cpp_pubsub1) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[3.503677] (-) TimerEvent: {}
+[3.603989] (-) TimerEvent: {}
+[3.704440] (-) TimerEvent: {}
+[3.804684] (-) TimerEvent: {}
+[3.904889] (-) TimerEvent: {}
+[4.005126] (-) TimerEvent: {}
+[4.105410] (-) TimerEvent: {}
+[4.205710] (-) TimerEvent: {}
+[4.305945] (-) TimerEvent: {}
+[4.406178] (-) TimerEvent: {}
+[4.506504] (-) TimerEvent: {}
+[4.606805] (-) TimerEvent: {}
+[4.707102] (-) TimerEvent: {}
+[4.807402] (-) TimerEvent: {}
+[4.907606] (-) TimerEvent: {}
+[5.008159] (-) TimerEvent: {}
+[5.108448] (-) TimerEvent: {}
+[5.208885] (-) TimerEvent: {}
+[5.309295] (-) TimerEvent: {}
+[5.409789] (-) TimerEvent: {}
+[5.510191] (-) TimerEvent: {}
+[5.512647] (cpp_pubsub1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[5.610409] (-) TimerEvent: {}
+[5.710784] (-) TimerEvent: {}
+[5.727969] (cpp_pubsub1) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.735437] (cpp_pubsub1) CommandEnded: {'returncode': 0}
+[5.736087] (cpp_pubsub1) JobProgress: {'identifier': 'cpp_pubsub1', 'progress': 'install'}
+[5.743514] (cpp_pubsub1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1'], 'cwd': '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'svaya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/svaya'), ('OLDPWD', '/home/svaya/Documents/ros2/multithreading/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/svaya/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/svaya/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '46269'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/svaya/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'svaya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'svaya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/svaya/.nvm/versions/node/v22.8.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVAYA-PC019:@/tmp/.ICE-unix/46245,unix/SVAYA-PC019:/tmp/.ICE-unix/46245'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6e28d32_e7a3_4c9a_b3c3_8752b0303477'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K5N482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '49'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.748527] (cpp_pubsub1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.748648] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/lib/cpp_pubsub1/talker\n'}
+[5.749275] (cpp_pubsub1) StdoutLine: {'line': b'-- Set runtime path of "/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/lib/cpp_pubsub1/talker" to ""\n'}
+[5.749344] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/lib/cpp_pubsub1/listener\n'}
+[5.750900] (cpp_pubsub1) StdoutLine: {'line': b'-- Set runtime path of "/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/lib/cpp_pubsub1/listener" to ""\n'}
+[5.751016] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub1\n'}
+[5.751145] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub1\n'}
+[5.751219] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/ament_prefix_path.sh\n'}
+[5.751274] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/ament_prefix_path.dsv\n'}
+[5.751329] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/path.sh\n'}
+[5.751418] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/path.dsv\n'}
+[5.751512] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.bash\n'}
+[5.751571] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.sh\n'}
+[5.751628] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.zsh\n'}
+[5.751685] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.dsv\n'}
+[5.751741] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/package.dsv\n'}
+[5.751798] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/packages/cpp_pubsub1\n'}
+[5.751875] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/cmake/cpp_pubsub1Config.cmake\n'}
+[5.751929] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/cmake/cpp_pubsub1Config-version.cmake\n'}
+[5.751983] (cpp_pubsub1) StdoutLine: {'line': b'-- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/package.xml\n'}
+[5.752687] (cpp_pubsub1) CommandEnded: {'returncode': 0}
+[5.762435] (cpp_pubsub1) JobEnded: {'identifier': 'cpp_pubsub1', 'rc': 0}
+[5.762994] (-) EventReactorShutdown: {}

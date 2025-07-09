@@ -1,0 +1,15 @@
+[0.006s] Invoking command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target parallelism[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/parallelism.dir/src/main.cpp.o[0m
+[1.341s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kvoid run_subscriber_node_2()[m[K’:
+[1.341s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:27:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.341s]    27 |     rclcpp::spin[34m[K([m[Kstd::make_shared<MinimalSubscriber2>()[01;31m[K;[m[K);
+[1.341s]       |                 [34m[K~[m[K                                      [01;31m[K^[m[K
+[1.341s]       |                                                        [32m[K)[m[K
+[1.341s] [01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:27:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.341s]    27 |     rclcpp::spin(std::make_shared<MinimalSubscriber2>();[01;31m[K)[m[K;
+[1.341s]       |                                                         [01;31m[K^[m[K
+[2.803s] gmake[2]: *** [CMakeFiles/parallelism.dir/build.make:76: CMakeFiles/parallelism.dir/src/main.cpp.o] Error 1
+[2.803s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parallelism.dir/all] Error 2
+[2.803s] gmake: *** [Makefile:146: all] Error 2
+[2.805s] Invoked command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28

@@ -1,0 +1,23 @@
+[0.007s] Invoking command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target parallelism[0m
+[0.076s] [100%] Built target parallelism
+[0.095s] Invoked command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1 -- -j28 -l28
+[0.107s] Invoking command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1
+[0.113s] -- Install configuration: ""
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/lib/cpp_pubsub1/parallelism
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub1
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub1
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/ament_prefix_path.sh
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/ament_prefix_path.dsv
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/path.sh
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/path.dsv
+[0.113s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.bash
+[0.114s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.sh
+[0.114s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.zsh
+[0.114s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.dsv
+[0.114s] -- Installing: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/package.dsv
+[0.114s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/packages/cpp_pubsub1
+[0.114s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/cmake/cpp_pubsub1Config.cmake
+[0.114s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/cmake/cpp_pubsub1Config-version.cmake
+[0.114s] -- Up-to-date: /home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/package.xml
+[0.115s] Invoked command in '/home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/svaya/Documents/ros2/multithreading/build/cpp_pubsub1

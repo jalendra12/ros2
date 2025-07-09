@@ -1,0 +1,11 @@
+[01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:50:24:[m[K [01;31m[Kerror: [m[K‘[01m[KStaticMultiThreadedExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’; did you mean ‘[01m[KStaticSingleThreadedExecutor[m[K’?
+   50 |     rclcpp::executors::[01;31m[KStaticMultiThreadedExecutor[m[K executor;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[KStaticSingleThreadedExecutor[m[K
+[01m[K/home/svaya/Documents/ros2/multithreading/src/cpp_pubsub1/src/main.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ was not declared in this scope
+   53 |     [01;31m[Kexecutor[m[K.add_node(node2);
+      |     [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parallelism.dir/build.make:76: CMakeFiles/parallelism.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parallelism.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

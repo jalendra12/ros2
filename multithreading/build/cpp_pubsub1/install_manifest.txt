@@ -1,0 +1,16 @@
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/lib/cpp_pubsub1/parallelism
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub1
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub1
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/ament_prefix_path.sh
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/ament_prefix_path.dsv
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/path.sh
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/environment/path.dsv
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.bash
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.sh
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.zsh
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/local_setup.dsv
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/package.dsv
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/ament_index/resource_index/packages/cpp_pubsub1
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/cmake/cpp_pubsub1Config.cmake
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/cmake/cpp_pubsub1Config-version.cmake
+/home/svaya/Documents/ros2/multithreading/install/cpp_pubsub1/share/cpp_pubsub1/package.xml
