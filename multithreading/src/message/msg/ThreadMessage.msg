@@ -1,2 +1,2 @@
-string s1
-string s2
+int64 v1
+int64 v2
