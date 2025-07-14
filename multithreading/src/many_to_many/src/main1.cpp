@@ -9,42 +9,60 @@ using namespace std::chrono_literals;
 
 class PS1:public rclcpp::Node{
     public:
-    PS1():Node("node1"),X(60){
+    PS1():Node("node1"),X(60),last_value(-1){
       publisher = this->create_publisher<message::msg::ThreadMessage>("topic", 10);
-      timer_ = this->create_wall_timer(1s, std::bind(&PS1::timer_callback_publisher, this));
+    //   timer_ = this->create_wall_timer(1s, std::bind(&PS1::timer_callback_publisher, this));
+    
+    subscription = this->create_subscription<message::msg::ThreadMessage>(
+        "topic", 10, std::bind(&PS1::timer_callback_subscriber, this, _1));
 
-      subscription = this->create_subscription<message::msg::ThreadMessage>(
-      "topic", 10, std::bind(&PS1::timer_callback_subscriber, this, _1));
+    timer = std::thread(&PS1::timer_callback_publisher,this);// calling callback with different time interval
+
+    }
+    ~PS1(){
+        if(timer.joinable()){
+            timer.join();
+        }
     }
 
     private:
     rclcpp::Subscription<message::msg::ThreadMessage>::SharedPtr subscription;
     rclcpp::Publisher<message::msg::ThreadMessage>::SharedPtr publisher;
     rclcpp::TimerBase::SharedPtr timer_;
-    int X;
+    std::thread timer;
+    int X,last_value;
+
     void timer_callback_publisher(){
-        auto message = message::msg::ThreadMessage();
-        message.v1 = 30;
-        message.v2 = 1;
-        std::cout<<"Publishing from 1..."<<std::endl;
-        publisher->publish(message);
+        int f=1;
+        while(rclcpp::ok()){
+            auto message = message::msg::ThreadMessage();
+            message.v1 = 30;
+            message.v2 = 1;
+            if(last_value != X){
+                std::cout<<"Publishing from 1..."<<std::endl;
+                last_value = message.v1;
+                publisher->publish(message);
+
+                if(f){
+                    std::this_thread::sleep_for(1s);
+                    f=0;
+                }else{
+                    std::this_thread::sleep_for(3s);
+                    f=1;
+                }
+            }
+        }
     }
     
     void timer_callback_subscriber(const message::msg::ThreadMessage &msg){
-        std::cout<<"Subscriber 1 :";
-        if(msg.v2 != 1){
-            std::cout<<msg.v1<<" "<<msg.v2<<std::endl;
-            if(msg.v1 == X){
-                std::cout<<"Achieved"<<std::endl;
-            }else{
-                auto message = message::msg::ThreadMessage();
-                message.v1 = msg.v1;
-                message.v2 = 1;
-                std::cout<<"Publishing from 1..."<<std::endl;
-                publisher->publish(message);
-            }
-        }else{
-            std::cout<<"Received data from same node"<<std::endl;
+        if(last_value != msg.v1)
+        {
+            auto message = message::msg::ThreadMessage();
+            message.v1 = msg.v1;
+            message.v2 = 1;
+            std::cout<<"Received data from 2 :"<<msg.v1<<std::endl;
+            publisher->publish(message);
+            last_value = msg.v1;
         }
     }
 };
