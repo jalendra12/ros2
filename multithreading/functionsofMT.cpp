@@ -12,7 +12,7 @@ int main(){
     //1. t.join(), the main function wait till the t thread complete its execution
 
     //2. t.detach(), Allows the thread to run independently of the main thread
-    // this_thread::sleep_for(3s); //wait for t thread to finish
+    // this_thread::sleep_for(3s); //main thread wait for 3s thread to finish t thread after detached
 
     //3. t.get_id(); // this will return the unique ID of the thread
     t.join();
