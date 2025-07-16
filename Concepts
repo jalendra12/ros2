@@ -5,43 +5,6 @@ Start ROS 2
 rqt is a graphical user interface (GUI) tool for ROS 2.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 NODE
 To run turtlesim, open a new terminal, and enter the following command:
 
