@@ -16,8 +16,28 @@ class customError:public exception{
         return "This is a custom exception!";
     }
 };
+class custom{
+    string message;
+    public:
+    custom():message(""){}
+    custom(string s):message(s){}
+    const string what() const noexcept{
+        return message;
+    }
+};
 int main(){
-    string error="Error";
-    shared_ptr<customError>ptr = make_shared<customError>();
+    // shared_ptr<customError>ptr = make_shared<customError>();
+    // cout<<ptr->what()<<endl;
+
+    // custom *cs = new custom("Error");
+    // cout<<cs->what()<<endl;
+
+    try{
+        throw custom("E");
+    }catch(custom &cm){
+        cout<<cm.what()<<endl;
+    }catch(...){
+        cout<<"Default"<<endl;
+    }
     return 0;
 }
