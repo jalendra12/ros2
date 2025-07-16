@@ -1,6 +1,7 @@
 #include<iostream>
 #include<thread>
 using namespace std;
+// what is thread: A thread represents a single, independent sequence of execution within a program.
 // thread thread_name(callable)
 void func1(int n){
     cout<<n<<endl;
