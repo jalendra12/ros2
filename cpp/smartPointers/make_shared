@@ -1,0 +1,9 @@
+Difference between new int{} and make_shared in smart pointers
+
+Memory Allocation Efficiency:
+    new: Allocates memory only for the object. The reference count (for shared_ptr) or other control blocks need to be managed separately.
+    make_shared: Allocates memory for both the object and the reference count (control block) in a single, efficient memory block.
+
+Memory Overhead:
+    new: If you use new with shared_ptr, there are at least two allocations—one for the object and one for the control block.
+    make_shared: Uses a single memory allocation for both the object and the control block, making it more memory-efficient.
