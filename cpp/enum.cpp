@@ -15,6 +15,12 @@ enum class Day1{
     Tuesday=1,
     Wednesday /*The behavior of implicit increment applies even in enum class. If the previous enumerator had a specific value, the next one will start from there and increment by 1 unless specified otherwise.*/
 };
+// Passing enum to the function
+enum asyncEnum{
+  Async=0,
+  sync=1  
+};
+
 int main(){
     Days day = Sunday;
     // cout<<day<<endl;
