@@ -1,32 +1,27 @@
 #include<bits/stdc++.h>
 using namespace std;
-int Par(int p,vector<int>&par){
-    if(p==par[p])return p;
-    else return par[p]=Par(par[p],par);
-    // return (p==par[p])?p:(par[p]=Par(par[p],par));
-}
 void solve(){
-    int n,a,b;
-    cin>>n;
-    vector<int>ans,par(2*n+2,-1),sz(2*n+2,1);
-    for(int i=0;i<2*n+2;i+=1)par[i]=i;
+    int n;cin>>n;
+    vector<int>v(n);
+    for(auto &x:v)cin>>x;
+    vector<int>pos(n);
+    for(int i=0;i<n;i+=1)pos[v[i]-1]=i;
     for(int i=0;i<n;i+=1){
-        cin>>a>>b;
-        a=Par(a,par);
-        b=Par(b,par);
-        if(a==b)continue;
-        else if(sz[a]>sz[b]){
-            sz[a]+=sz[b];
-            par[b]=a;
-        }else{
-            sz[b]+=sz[a];
-            par[a]=b;
+        int isPos=0,maxi=n+2;
+        for(int j=0;j<n;j+=1){
+            if(j<pos[i] && v[pos[i]]<v[j])isPos+=1;
+            else if(j>pos[i] && v[pos[i]]<v[j])isPos-=1;
+            if(j>pos[i])maxi=min(maxi,v[j]);
         }
-        ans.push_back(i+1);
+        if((isPos>0) || (2*n-v[pos[i]]<maxi))v[pos[i]]=2*n-v[pos[i]];
     }
-    cout<<ans.size()<<endl;
-    for(auto x:ans)cout<<x<<" ";cout<<endl;
-
+    int ans=0;
+    for(int i=0;i<n;i+=1){
+        for(int j=i+1;j<n;j+=1){
+            ans += (v[i]>v[j]);
+        }
+    }
+    cout<<ans<<endl;
 }
 int main(){
     int t;
