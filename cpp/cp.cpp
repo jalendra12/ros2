@@ -8,8 +8,8 @@ int Par(int p,vector<int>&par){
 void solve(){
     int n,a,b;
     cin>>n;
-    vector<int>ans,par(2*n,-1),sz(2*n,1);
-    for(int i=0;i<2*n;i+=1)par[i]=i;
+    vector<int>ans,par(2*n+2,-1),sz(2*n+2,1);
+    for(int i=0;i<2*n+2;i+=1)par[i]=i;
     for(int i=0;i<n;i+=1){
         cin>>a>>b;
         a=Par(a,par);
